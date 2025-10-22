@@ -1,0 +1,131 @@
+//	*	Auto generated file
+
+	cmd_scripting 1
+	touch_removebutton _xmenu_m*_*
+
+	if $_xmenu_stroke_enable >= 1;:touch_set_stroke $_xmenu_stroke_size $_xmenu_stroke_color;else;:touch_set_stroke
+
+	if $_xmenu_charset_fix >= 1;:cl_charset utf-8;else;:cl_charset cp1251
+
+	if $gamedir = cstrike;:$_num
+
+	if $_xmenu_text_size >= 1.6;:set _xmenu_text_size "0.90";:set _xmenu_error_reason "maximum limit reached" ;:echo "^1$_xmenu_error_prefix^7 *_text_szie reason:^3 $_xmenu_error_reason";:$_nl
+
+
+if $_xmenu_menu_min <= 1;:if $_xmenu_menu_max >= 1
+::touch_addbutton "_xmenu_m1_wsh1t" "#$_xmenu_t_1" "" $_button_t1_pos $_xmenu_t1_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf1_wsh1t" "#$_xmenu_f_1" "" $_button_f1_pos $_xmenu_f1_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 2;:if $_xmenu_menu_max >= 2
+::touch_addbutton "_xmenu_m2_wsh1t" "#$_xmenu_t_2" "" $_button_t2_pos $_xmenu_t2_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf2_wsh1t" "#$_xmenu_f_2" "" $_button_f2_pos $_xmenu_f2_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 3;:if $_xmenu_menu_max >= 3
+::touch_addbutton "_xmenu_m3_wsh1t" "#$_xmenu_t_3" "" $_button_t3_pos $_xmenu_t3_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf3_wsh1t" "#$_xmenu_f_3" "" $_button_f3_pos $_xmenu_f3_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 4;:if $_xmenu_menu_max >= 4
+::touch_addbutton "_xmenu_m4_wsh1t" "#$_xmenu_t_4" "" $_button_t4_pos $_xmenu_t4_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf4_wsh1t" "#$_xmenu_f_4" "" $_button_f4_pos $_xmenu_f4_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 5;:if $_xmenu_menu_max >= 5
+::touch_addbutton "_xmenu_m5_wsh1t" "#$_xmenu_t_5" "" $_button_t5_pos $_xmenu_t5_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf5_wsh1t" "#$_xmenu_f_5" "" $_button_f5_pos $_xmenu_f5_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 6;:if $_xmenu_menu_max >= 6
+::touch_addbutton "_xmenu_m6_wsh1t" "#$_xmenu_t_6" "" $_button_t6_pos $_xmenu_t6_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf6_wsh1t" "#$_xmenu_f_6" "" $_button_f6_pos $_xmenu_f6_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 7;:if $_xmenu_menu_max >= 7
+::touch_addbutton "_xmenu_m7_wsh1t" "#$_xmenu_t_7" "" $_button_t7_pos $_xmenu_t7_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf7_wsh1t" "#$_xmenu_f_7" "" $_button_f7_pos $_xmenu_f7_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 8;:if $_xmenu_menu_max >= 8
+::touch_addbutton "_xmenu_m8_wsh1t" "#$_xmenu_t_8" "" $_button_t8_pos $_xmenu_t8_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf8_wsh1t" "#$_xmenu_f_8" "" $_button_f8_pos $_xmenu_f8_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 9;:if $_xmenu_menu_max >= 9
+::touch_addbutton "_xmenu_m9_wsh1t" "#$_xmenu_t_9" "" $_button_t9_pos $_xmenu_t9_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf9_wsh1t" "#$_xmenu_f_9" "" $_button_f9_pos $_xmenu_f9_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 10;:if $_xmenu_menu_max >= 10
+::touch_addbutton "_xmenu_m10_wsh1t" "#$_xmenu_t_10" "" $_button_t10_pos $_xmenu_t10_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf10_wsh1t" "#$_xmenu_f_10" "" $_button_f10_pos $_xmenu_f10_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 11;:if $_xmenu_menu_max >= 11
+::touch_addbutton "_xmenu_m11_wsh1t" "#$_xmenu_t_11" "" $_button_t11_pos $_xmenu_t11_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf11_wsh1t" "#$_xmenu_f_11" "" $_button_f11_pos $_xmenu_f11_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 12;:if $_xmenu_menu_max >= 12
+::touch_addbutton "_xmenu_m12_wsh1t" "#$_xmenu_t_12" "" $_button_t12_pos $_xmenu_t12_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf12_wsh1t" "#$_xmenu_f_12" "" $_button_f12_pos $_xmenu_f12_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 13;:if $_xmenu_menu_max >= 13
+::touch_addbutton "_xmenu_m13_wsh1t" "#$_xmenu_t_13" "" $_button_t13_pos $_xmenu_t13_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf13_wsh1t" "#$_xmenu_f_13" "" $_button_f13_pos $_xmenu_f13_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 14;:if $_xmenu_menu_max >= 14
+::touch_addbutton "_xmenu_m14_wsh1t" "#$_xmenu_t_14" "" $_button_t14_pos $_xmenu_t14_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf14_wsh1t" "#$_xmenu_f_14" "" $_button_f14_pos $_xmenu_f14_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 15;:if $_xmenu_menu_max >= 15
+::touch_addbutton "_xmenu_m15_wsh1t" "#$_xmenu_t_15" "" $_button_t15_pos $_xmenu_t15_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf15_wsh1t" "#$_xmenu_f_15" "" $_button_f15_pos $_xmenu_f15_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 16;:if $_xmenu_menu_max >= 16
+::touch_addbutton "_xmenu_m16_wsh1t" "#$_xmenu_t_16" "" $_button_t16_pos $_xmenu_t16_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf16_wsh1t" "#$_xmenu_f_16" "" $_button_f16_pos $_xmenu_f16_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 17;:if $_xmenu_menu_max >= 17
+::touch_addbutton "_xmenu_m17_wsh1t" "#$_xmenu_t_17" "" $_button_t17_pos $_xmenu_t17_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf17_wsh1t" "#$_xmenu_f_17" "" $_button_f17_pos $_xmenu_f17_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 18;:if $_xmenu_menu_max >= 18
+::touch_addbutton "_xmenu_m18_wsh1t" "#$_xmenu_t_18" "" $_button_t18_pos $_xmenu_t18_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf18_wsh1t" "#$_xmenu_f_18" "" $_button_f18_pos $_xmenu_f18_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 19;:if $_xmenu_menu_max >= 19
+::touch_addbutton "_xmenu_m19_wsh1t" "#$_xmenu_t_19" "" $_button_t19_pos $_xmenu_t19_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf19_wsh1t" "#$_xmenu_f_19" "" $_button_f19_pos $_xmenu_f19_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 20;:if $_xmenu_menu_max >= 20
+::touch_addbutton "_xmenu_m20_wsh1t" "#$_xmenu_t_20" "" $_button_t20_pos $_xmenu_t20_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf20_wsh1t" "#$_xmenu_f_20" "" $_button_f20_pos $_xmenu_f20_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 21;:if $_xmenu_menu_max >= 21
+::touch_addbutton "_xmenu_m21_wsh1t" "#$_xmenu_t_21" "" $_button_t21_pos $_xmenu_t21_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf21_wsh1t" "#$_xmenu_f_21" "" $_button_f21_pos $_xmenu_f21_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 22;:if $_xmenu_menu_max >= 22
+::touch_addbutton "_xmenu_m22_wsh1t" "#$_xmenu_t_22" "" $_button_t22_pos $_xmenu_t22_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf22_wsh1t" "#$_xmenu_f_22" "" $_button_f22_pos $_xmenu_f22_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 23;:if $_xmenu_menu_max >= 23
+::touch_addbutton "_xmenu_m23_wsh1t" "#$_xmenu_t_23" "" $_button_t23_pos $_xmenu_t23_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf23_wsh1t" "#$_xmenu_f_23" "" $_button_f23_pos $_xmenu_f23_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 24;:if $_xmenu_menu_max >= 24
+::touch_addbutton "_xmenu_m24_wsh1t" "#$_xmenu_t_24" "" $_button_t24_pos $_xmenu_t24_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf24_wsh1t" "#$_xmenu_f_24" "" $_button_f24_pos $_xmenu_f24_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 25;:if $_xmenu_menu_max >= 25
+::touch_addbutton "_xmenu_m25_wsh1t" "#$_xmenu_t_25" "" $_button_t25_pos $_xmenu_t25_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf25_wsh1t" "#$_xmenu_f_25" "" $_button_f25_pos $_xmenu_f25_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 26;:if $_xmenu_menu_max >= 26
+::touch_addbutton "_xmenu_m26_wsh1t" "#$_xmenu_t_26" "" $_button_t26_pos $_xmenu_t26_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf26_wsh1t" "#$_xmenu_f_26" "" $_button_f26_pos $_xmenu_f26_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 27;:if $_xmenu_menu_max >= 27
+::touch_addbutton "_xmenu_m27_wsh1t" "#$_xmenu_t_27" "" $_button_t27_pos $_xmenu_t27_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf27_wsh1t" "#$_xmenu_f_27" "" $_button_f27_pos $_xmenu_f27_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 28;:if $_xmenu_menu_max >= 28
+::touch_addbutton "_xmenu_m28_wsh1t" "#$_xmenu_t_28" "" $_button_t28_pos $_xmenu_t28_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf28_wsh1t" "#$_xmenu_f_28" "" $_button_f28_pos $_xmenu_f28_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 29;:if $_xmenu_menu_max >= 29
+::touch_addbutton "_xmenu_m29_wsh1t" "#$_xmenu_t_29" "" $_button_t29_pos $_xmenu_t29_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf29_wsh1t" "#$_xmenu_f_29" "" $_button_f29_pos $_xmenu_f29_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 30;:if $_xmenu_menu_max >= 30
+::touch_addbutton "_xmenu_m30_wsh1t" "#$_xmenu_t_30" "" $_button_t30_pos $_xmenu_t30_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf30_wsh1t" "#$_xmenu_f_30" "" $_button_f30_pos $_xmenu_f30_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_menu_min <= 31;:if $_xmenu_menu_max >= 31
+::touch_addbutton "_xmenu_m31_wsh1t" "#$_xmenu_t_31" "" $_button_t31_pos $_xmenu_t31_color $_xmenu_menu_alp $_xmenu_text_size
+::touch_addbutton "_xmenu_mf31_wsh1t" "#$_xmenu_f_31" "" $_button_f31_pos $_xmenu_f31_color $_xmenu_menu_alp $_xmenu_text_size
+if $_xmenu_ar_colors >= 1;:touch_setcolor _xmenu_*_* $_xmenu_text_color
+
+touch_addbutton "_xmenu_r1_wsh1t" "*white" "_touch_emulate 0 ;exec $_xmenu_menu_rp/$_xmenu_menu_id" $_button_r1_pos $_xmenu_ref_color 71
+//touch_addbutton "_xmenu_r2_wsh1t" "#xd" "" $_button_rt1_pos $_xmenu_rt1_color 71 $_xmenu_text_size
+
+alias $_xmenu_unslotall_cmd "unalias slot1 ;unalias slot2; unalias slot3 ;unalias slot4; unalias slot5 ;unalias slot6; unalias slot7 ;unalias slot8; unalias slot9 ; unalias slot10"
+alias $_xmenu_menu_exit_cmd "touch_removebutton _xmenu_* ; $_xmenu_unslotall_cmd"
+
+if $_xmenu_ref_show_fix >= 1
+: alias $_xmenu_show_refresh_cmd "_touch_emulate 1 ;alias $_xmenu_ref_key exec $_xmenu_menu_rp/$_xmenu_menu_id	;touch_hide _xmenu_m*_* ;touch_show _xmenu_r*";else
+: alias $_xmenu_show_refresh_cmd "touch_hide _xmenu_m*_* ;touch_show _xmenu_r*"
+
+if "$_xmenu_build_keys_cmd"
+else
+:alias slot1 "";:alias slot2 "";alias slot3 "";:alias slot4 "";:alias slot5 "";:alias slot6 "";:alias slot7 "";:alias slot8 "";:alias slot9 "";:alias slot10 ""
+
+if $_xmenu_ar_buttons >= 1
+:set _xmenu_t_1 "" ;:set _xmenu_t_2 "" ;:set _xmenu_t_3 "" ;:set _xmenu_t_4 "" ;:set _xmenu_t_5 "" ;:set _xmenu_t_6 "" ;:set _xmenu_t_7 "" ;:set _xmenu_t_8 "" ;:set _xmenu_t_9 "" ;:set _xmenu_t_10 "" ;:set _xmenu_t_11 "" ;:set _xmenu_t_12 "" ;:set _xmenu_t_13 "" ;:set _xmenu_t_14 "" ;:set _xmenu_t_15 "" ;:set _xmenu_t_16 "" ;:set _xmenu_t_17 "" ;:set _xmenu_t_18 "" ;:set _xmenu_t_19 "" ;:set _xmenu_t_20 "" ;:set _xmenu_t_21 "" ;:set _xmenu_t_22 "" ;:set _xmenu_t_23 "" ;:set _xmenu_t_24 "" ;:set _xmenu_t_25 "" ;:set _xmenu_t_26 "" ;:set _xmenu_t_27 "" ;:set _xmenu_t_28 "" ;:set _xmenu_t_29 "" ;:set _xmenu_t_30 "" ;:set _xmenu_t_31 ""
+:set _xmenu_f_1 "" ;:set _xmenu_f_2 "" ;:set _xmenu_f_3 "" ;:set _xmenu_f_4 "" ;:set _xmenu_f_5 "" ;:set _xmenu_f_6 "" ;:set _xmenu_f_7 "" ;:set _xmenu_f_8 "" ;:set _xmenu_f_9 "" ;:set _xmenu_f_10 "" ;:set _xmenu_f_11 "" ;:set _xmenu_f_12 "" ;:set _xmenu_f_13 "" ;:set _xmenu_f_14 "" ;:set _xmenu_f_15 "" ;:set _xmenu_f_16 "" ;:set _xmenu_f_17 "" ;:set _xmenu_f_18 "" ;:set _xmenu_f_19 "" ;:set _xmenu_f_20 "" ;:set _xmenu_f_21 "" ;:set _xmenu_f_22 "" ;:set _xmenu_f_23 "" ;:set _xmenu_f_24 "" ;:set _xmenu_f_25 "" ;:set _xmenu_f_26 "" ;:set _xmenu_f_27 "" ;:set _xmenu_f_28 "" ;:set _xmenu_f_29 "" ;:set _xmenu_f_30 "" ;:set _xmenu_f_31 ""
+	else
+
+if $_xmenu_fade >= 1
+:touch_fade _xmenu_* $_xmenu_fade_time
+	else

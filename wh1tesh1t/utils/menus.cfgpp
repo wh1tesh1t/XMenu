@@ -1,0 +1,35 @@
+// * Auto generated file
+
+if $_xmenu_menu_id == example_spawn.$_xmenu_def_format
+: set _xmenu_t_11 "$_xmenu_menu_title"
+: set _xmenu_t_12 "Builder ver: $_xmenu_t_build"
+
+: set _xmenu_t_13 "[1]. item_longjump"
+: set _xmenu_t_14 "[2]. item_battery"
+: set _xmenu_t_15 "[3]. item_antidote"
+
+:if $sv_enttools_enable > 0
+:: set _xmenu_t_17 "[8]. Disable Enttools"
+:else
+:: set _xmenu_t_17 "[8]. Enable Enttools"
+
+
+: set _xmenu_t_18 "[0]. Exit"
+
+if $_xmenu_menu_id == example_give.$_xmenu_def_format
+: set _xmenu_t_11 "$_xmenu_menu_title"
+: set _xmenu_t_12 "Builder ver: $_xmenu_t_build"
+
+: set _xmenu_t_14 "[1]. weapon_m4a1"
+: set _xmenu_t_15 "[2]. weapon_deagle"
+: set _xmenu_t_16 "[3]. weapon_ak47"
+: set _xmenu_t_17 "[4]. weapon_scout"
+: set _xmenu_t_18 "[5]. weapon_usp"
+: set _xmenu_t_19 "[6]. weapon_glock18"
+
+:if $sv_cheats > 0
+:: set _xmenu_t_21 "[7]. Disable Cheats"
+:else
+:: set _xmenu_t_21 "[7]. Enable Cheats"
+
+: set _xmenu_t_22 "[0]. Exit"

@@ -1,0 +1,20 @@
+// * Auto generated file
+
+if $_xmenu_menu_id == example_spawn.$_xmenu_def_format
+: alias slot1 "$_xmenu_menu_exit_cmd	;ent_create item_longjump"
+: alias slot2 "$_xmenu_menu_exit_cmd	;ent_create item_battery"
+: alias slot3 "$_xmenu_menu_exit_cmd	;ent_create item_antidote"
+
+: alias slot8 "$_t sv_enttools_enable  ;$_reset"
+: alias slot10 "$_xmenu_menu_exit_cmd"
+
+if $_xmenu_menu_id == example_give.$_xmenu_def_format
+: alias slot1 "$_xmenu_menu_exit_cmd	;give weapon_m4a1"
+: alias slot2 "$_xmenu_menu_exit_cmd	;give weapon_deagle"
+: alias slot3 "$_xmenu_menu_exit_cmd	;give weapon_ak47"
+: alias slot4 "$_xmenu_menu_exit_cmd	;give weapon_scout"
+: alias slot5 "$_xmenu_menu_exit_cmd	;give weapon_usp"
+: alias slot6 "$_xmenu_menu_exit_cmd	;give weapon_glock18"
+
+: alias slot7 "$_t sv_cheats	;$_reset"
+: alias slot10 "$_xmenu_menu_exit_cmd"
