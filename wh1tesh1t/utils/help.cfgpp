@@ -1,0 +1,23 @@
+$_cc
+echo "=== # XMenu help page ==="
+$_nl
+echo "# $_xmenu_main_menu_cmd - Example Spawn menu"
+echo "# $_xmenu_give_menu_cmd - Example Give menu"
+$_nl
+scmd0;echo "=== With prefix '$cmd' ===";scmd1
+echo "_nl - New line"
+echo "_num - Numerical menu (like Counter-Strike 1.6)"
+echo "_cc - Clear console"
+echo "_tc - Toggle console"
+echo "_t - Toggle command"
+$_nl
+echo "=== Without prefix ==="
+echo "$_xmenu_unslotall_cmd - Unslot all keys"
+echo "$_xmenu_show_refresh_cmd - Show refresh menu button"
+echo "$_xmenu_menu_exit_cmd - Close menus"
+echo "$_xmenu_build_text_cmd - Building text from menus.cfgpp"
+echo "$_xmenu_build_keys_cmd - Building keys from keys.cfpp"
+echo "$_xmenu_build_menu_cmd - Command for start build menu"
+echo "_reset - Reset menu by ID"
+echo "wf - wait frame"
+echo "scmd0/scmd1 - Disable/Enable command scripting"

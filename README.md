@@ -19,6 +19,13 @@ example_menu1
 example_menu2
 ```
 
+## Or you can type
+
+```
+xmenu_help
+xmenu_license
+```
+
 ---
 
 ## CVAR List
