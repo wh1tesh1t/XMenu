@@ -105,7 +105,9 @@ if $_xmenu_menu_min <= 30;:if $_xmenu_menu_max >= 30
 if $_xmenu_menu_min <= 31;:if $_xmenu_menu_max >= 31
 ::touch_addbutton "_xmenu_m31_wsh1t" "#$_xmenu_t_31" "" $_button_t31_pos $_xmenu_t31_color $_xmenu_menu_alp $_xmenu_text_size
 ::touch_addbutton "_xmenu_mf31_wsh1t" "#$_xmenu_f_31" "" $_button_f31_pos $_xmenu_f31_color $_xmenu_menu_alp $_xmenu_text_size
-if $_xmenu_ar_colors >= 1;:touch_setcolor _xmenu_*_* $_xmenu_text_color
+
+if $_xmenu_ar_colors >= 1;:if $_xmenu_allow_reset_clrs >= 1
+::$_xmenu_reset_colors_cmd
 
 touch_addbutton "_xmenu_r1_wsh1t" "*white" "_touch_emulate 0 ;exec $_xmenu_menu_rp/$_xmenu_menu_id" $_button_r1_pos $_xmenu_ref_color 71
 //touch_addbutton "_xmenu_r2_wsh1t" "#xd" "" $_button_rt1_pos $_xmenu_rt1_color 71 $_xmenu_text_size

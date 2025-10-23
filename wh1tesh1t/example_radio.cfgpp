@@ -1,17 +1,21 @@
 	cmd_scripting 1
 	$_xmenu_reset_colors_cmd
-	  set _xmenu_menu_title "GIVE WEAPON Example"
-		set _xmenu_menu_id example_give.$_xmenu_def_format
+	  set _xmenu_menu_title "RADIO Example"
+		set _xmenu_menu_id example_radio.$_xmenu_def_format
 		set _xmenu_menu_rp "wh1tesh1t"
 		set _xmenu_menu_brp "builder"
-		set _xmenu_menu_min "1"
-		set _xmenu_menu_max "22"
-    set _xmenu_ar_colors "1"
+		set _xmenu_menu_min "11"
+		set _xmenu_menu_max "23"
+    set _xmenu_ar_colors "0"
     set _xmenu_text_size "0.78"
 
 alias "$_xmenu_build_text_cmd" "exec $_xmenu_menu_rp/utils/menus.$_xmenu_def_format"
 alias "$_xmenu_build_keys_cmd" "exec $_xmenu_menu_rp/utils/keys.$_xmenu_def_format"
 alias "$_xmenu_build_menu_cmd" "exec $_xmenu_menu_rp/$_xmenu_menu_brp/wsh1t-builder.txt"
+
+// Colors
+set _xmenu_t11_color "240 0 0 255"
+set _xmenu_t12_color "240 0 0 255"
 
 $_xmenu_build_text_cmd
 $_xmenu_build_menu_cmd

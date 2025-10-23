@@ -15,8 +15,9 @@
 You can open example menus using the following commands in the console:
 
 ```
-example_menu1
-example_menu2
+example_menu1 - Spawn menu
+example_menu2 - Give weapon menu
+example_menu3 - Radio menu
 ```
 
 ## Or you can type

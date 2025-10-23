@@ -33,3 +33,18 @@ if $_xmenu_menu_id == example_give.$_xmenu_def_format
 :: set _xmenu_t_21 "[7]. Enable Cheats"
 
 : set _xmenu_t_22 "[0]. Exit"
+
+if $_xmenu_menu_id == example_radio.$_xmenu_def_format
+: set _xmenu_t_11 "$_xmenu_menu_title"
+: set _xmenu_t_12 "Builder ver: $_xmenu_t_build"
+
+: set _xmenu_t_14 "[1]. BOAH";: set _xmenu_f_14 "(ALL)"
+: set _xmenu_t_15 "[2]. Hello and Die.";: set _xmenu_f_15 "(ALL)"
+: set _xmenu_t_16 "[3]. Cover Me";: set _xmenu_f_16 "(TEAM)"
+: set _xmenu_t_17 "[4]. Planting on A plant";: set _xmenu_f_17 "(TEAM)"
+: set _xmenu_t_18 "[5]. Planting on B plant";: set _xmenu_f_18 "(TEAM)"
+: set _xmenu_t_19 "[6]. Planting on C plant";: set _xmenu_f_19 "(TEAM)"
+: set _xmenu_t_20 "[7]. Planting on D plant";: set _xmenu_f_20 "(TEAM)"
+: set _xmenu_t_21 "[8]. ByeBye";: set _xmenu_f_21 "(ALL)"
+
+: set _xmenu_t_23 "[0]. Exit"

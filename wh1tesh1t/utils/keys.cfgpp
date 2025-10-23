@@ -18,3 +18,15 @@ if $_xmenu_menu_id == example_give.$_xmenu_def_format
 
 : alias slot7 "$_t sv_cheats	;$_reset"
 : alias slot10 "$_xmenu_menu_exit_cmd"
+
+if $_xmenu_menu_id == example_radio.$_xmenu_def_format
+: alias slot1 "$_xmenu_menu_exit_cmd	;say BOAH"
+: alias slot2 "$_xmenu_menu_exit_cmd	;say HelloAndDie."
+: alias slot3 "$_xmenu_menu_exit_cmd	;say_team Cover Me"
+: alias slot4 "$_xmenu_menu_exit_cmd	;say_team Planting on A plant"
+: alias slot5 "$_xmenu_menu_exit_cmd	;say_team Planting on B plant"
+: alias slot6 "$_xmenu_menu_exit_cmd	;say_team Planting on C plant"
+: alias slot7 "$_xmenu_menu_exit_cmd	;say_team Planting on D plant"
+: alias slot8 "$_xmenu_menu_exit_cmd	;say bb."
+
+: alias slot10 "$_xmenu_menu_exit_cmd"

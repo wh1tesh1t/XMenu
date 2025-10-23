@@ -1,4 +1,5 @@
 	cmd_scripting 1
+	$_xmenu_reset_colors_cmd
 	  set _xmenu_menu_title "SPAWN Example"
 		set _xmenu_menu_id example_spawn.$_xmenu_def_format
 		set _xmenu_menu_rp "wh1tesh1t"
